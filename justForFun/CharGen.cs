@@ -2,7 +2,7 @@
 {
     internal class CharGen
     {
-        private Random rndGen = new Random();
+        private Random _rndGen = new Random();
 
         private string _znakyAJ = "abcdefghijklmnopqrstuvwxyz";
         private string _cisla = "0123456789";
